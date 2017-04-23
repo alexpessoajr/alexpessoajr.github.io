@@ -2,24 +2,73 @@
 body {
     background: #fafafa;
     font-family: 'Ubuntu', sans-serif;
-    padding-bottom: 50px;
+    padding-bottom: 3em;
 }
 
 header.header {
     background: #fff;
-    padding: 25px 0 15px;
+    padding: 2em 0 1.5rem;
 }
 
 header.header .social-media li {
-    margin-left: 10px;
+    margin-left: 2ch;
 }
 
 header.header .social-media li a {
     color: #555;
-    font-size: 2.5em;
+    font-size: 3.5rem;
     text-decoration: none;
 }
 
 header.header .social-media li a:hover {
     color: #333;
+}
+
+main {
+    padding-top: 0.5em;
+}
+
+main section h2 {
+    margin-bottom: 1em;
+}
+
+.timeline {
+    width: 500px;
+}
+
+.timeline .entry .title {
+    box-sizing: border-box;
+    color: #aaa;
+    display: inline-block;
+    padding-right: 1.5em;
+    position: relative;
+    text-align: right;
+    width: 25%;
+}
+
+.timeline .entry .title:after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 5px solid salmon;
+    background-color:#fff;
+    border-radius:100%;
+    top: 0;
+    right: -12px;
+    z-index: 99;
+}
+
+.timeline .entry .body {
+    border-left: 2px solid #ddd;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-bottom: 2em;
+    padding-left: 1.5em;
+    vertical-align: top;
+    width: 70%;
+}
+
+.timeline .entry:last-child .body {
+    border-left-color: transparent;
 }

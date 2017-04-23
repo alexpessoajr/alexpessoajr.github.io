@@ -12,89 +12,123 @@
     <body>
         <header class="header">
             <div class="container">
-                <div class="col-md-2">
-                    <img class="img-circle" src="https://avatars1.githubusercontent.com/u/1766028?v=3&s=150" alt="I'ts me!'">
-                </div>
-                <div class="col-md-10">
-                    <h1>Alex Pessoa <small>a.k.a. boot</small></h1>
-                    <h3>Programmer</h3>
-                    <address class="pull-left">Recife, PE - Brazil</address>
-                    <div class="social-media pull-right">
-                        <ul class="list-inline">
-                            <li><a href="https://github.com/alexpessoajr" class="fa fa-github"></a></li>
-                            <li><a href="https://codepen.io/alexpessoajr" class="fa fa-codepen"></a></li>
-                            <li><a href="https://www.linkedin.com/in/alex-pessoa-25649937/" class="fa fa-linkedin-square"></a></li>
-                        </ul>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="img-circle" src="https://avatars1.githubusercontent.com/u/1766028?v=3&s=150" alt="I'ts me!'">
+                    </div>
+                    <div class="col-md-10">
+                        <h1>Alex Pessoa <small>a.k.a. boot</small></h1>
+                        <h3>Programmer</h3>
+                        <address class="pull-left">Recife, PE - Brazil</address>
+                        <div class="social-media pull-right">
+                            <ul class="list-inline">
+                                <li><a href="https://github.com/alexpessoajr" class="fa fa-github"></a></li>
+                                <li><a href="https://codepen.io/alexpessoajr" class="fa fa-codepen"></a></li>
+                                <li><a href="https://www.linkedin.com/in/alex-pessoa-25649937/" class="fa fa-linkedin-square"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
 
         <main class="container">
-            <section>
-                <h2>Work History</h2>
-                <ul>
-                    <li>2014 - Present - Programmer at Facilit</li>
-                    <li>2013 - 2014 - Programmer at Qualihouse</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Skills</h2>
-                <ul>
-                    <li>Back end
-                        <ul>
-                            <li>Java
-                                <ul>
-                                    <li>JSP/JSTL</li>
-                                    <li>JSF</li>
-                                    <li>JPA</li>
-                                </ul>
-                            </li>
-                            <li>Node.js
-                                <ul>
-                                    <li>Express</li>
-                                    <li>Mongoose</li>
-                                </ul>
-                            </li>
-                            <li>PHP</li>
-                        </ul>
-                    </li>
-                    <li>Front end
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS
-                                <ul>
-                                    <li>Bootstrap</li>
-                                </ul>
-                            </li>
-                            <li>Javascript
-                                <ul>
-                                    <li>jQuery</li>
-                                    <li>Angular.js</li>
-                                    <li>React</li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>Certifications</h2>
-                <ul>
-                    <li>
-                        <img src="img/zce-php-engineer-logo.jpg" height="75" alt="Zend Certified PHP Engineer"> Zend Certified PHP Engineer
-                    </li>
-                </ul>
-            </section>
-            <section>
-                <h2>Profiles</h2>
-                <ul>
-                    <li><a href="http://br.spoj.com/users/alexpessoajr/">SPOJ Brasil</a></li>
-                    <li><a href="https://www.urionlinejudge.com.br/judge/en/profile/905">URI Online Judge</a></li>
-                    <li><a href="http://codeforces.com/profile/alexpessoajr">Codeforces</a></li>
-                    <li><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=20&page=show_authorstats&userid=147556">UVa Online Judge</a></li>
-                </ul>
-            </section>
+            <div class="row">
+                <section class="col-md-8">
+                    <h2>Work History</h2>
+                    <div class="timeline">
+                        <div class="entry">
+                            <div class="title">2014 - Present</div>
+                            <div class="body">
+                                <strong>Programmer</strong>
+                                <br>Facilit
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">2013 - 2014</div>
+                            <div class="body">
+                                <strong>Programmer</strong>
+                                <br>Qualihouse
+                            </div>
+                        </div>
+                        <div class="entry">
+                            <div class="title">2010 - 2012</div>
+                            <div class="body">
+                                <strong>Intern</strong>
+                                <br>Instituto Federal de Pernambuco
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-md-4">
+                    <h2>Certifications</h2>
+                    <ul class="list-inline">
+                        <li>
+                            <img src="img/zce-php-engineer-logo.jpg" height="100" alt="Zend Certified PHP Engineer">
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="row">
+                <section class="col-md-12">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Back end
+                            <ul>
+                                <li>Java
+                                    <ul>
+                                        <li>JSP/JSTL</li>
+                                        <li>JSF</li>
+                                        <li>JPA</li>
+                                    </ul>
+                                </li>
+                                <li>Node.js
+                                    <ul>
+                                        <li>Express</li>
+                                        <li>Mongoose</li>
+                                    </ul>
+                                </li>
+                                <li>PHP</li>
+                            </ul>
+                        </li>
+                        <li>Front end
+                            <ul>
+                                <li>HTML
+                                    <ul>
+                                        <li>Web Storage API</li>
+                                    </ul>
+                                </li>
+                                <li>CSS
+                                    <ul>
+                                        <li>Bootstrap</li>
+                                    </ul>
+                                </li>
+                                <li>Javascript
+                                    <ul>
+                                        <li>jQuery</li>
+                                        <li>Angular.js</li>
+                                        <li>React</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Mobile
+                            <ul>
+                                <li>Android</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section class="col-md-4">
+                    <h2>Profiles</h2>
+                    <ul>
+                        <li><a href="http://br.spoj.com/users/alexpessoajr/">SPOJ Brasil</a></li>
+                        <li><a href="https://www.urionlinejudge.com.br/judge/en/profile/905">URI Online Judge</a></li>
+                        <li><a href="http://codeforces.com/profile/alexpessoajr">Codeforces</a></li>
+                        <li><a href="https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=20&page=show_authorstats&userid=147556">UVa Online Judge</a></li>
+                    </ul>
+                </section>
+            </div>
         </main>
     </body>
 </html>
