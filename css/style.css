@@ -10,6 +10,10 @@ header.header {
     padding: 25px 0 15px;
 }
 
+header.header .social-media li {
+    margin-left: 10px;
+}
+
 header.header .social-media li a {
     color: #555;
     font-size: 2.5em;
