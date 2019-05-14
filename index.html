@@ -13,11 +13,7 @@
     <header>
       <img md-whiteframe="2" src="https://avatars1.githubusercontent.com/u/1766028?v=3&s=150" alt="I'ts me!'">
       <h1>Alex Pessoa</h1>
-      <ul>
-        <li><a href="https://github.com/alexpessoajr" class="fa fa-github"></a></li>
-        <li><a href="https://codepen.io/alexpessoajr" class="fa fa-codepen"></a></li>
-        <li><a href="https://www.linkedin.com/in/alexpessoajr" class="fa fa-linkedin-square"></a></li>
-      </ul>
+      <div id="socialLinks"></div>
     </header>
 
     <main layout="column">
@@ -174,8 +170,6 @@
           </md-card>
         </md-card-content>
       </md-card>
-
-      
     </main>
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
@@ -185,5 +179,9 @@
     <script type="text/javascript">    
       angular.module('ResumeApp', ['ngMaterial']);
     </script>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="./dist/SocialLinks.js"></script>
+    <script src="./dist/index.js"></script>
   </body>
 </html>
