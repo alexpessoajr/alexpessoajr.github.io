@@ -11,7 +11,7 @@
   </head>
   <body ng-app="ResumeApp">
     <header>
-      <img md-whiteframe="2" src="https://avatars1.githubusercontent.com/u/1766028?v=3&s=150" alt="I'ts me!'">
+      <img md-whiteframe="2" src="https://avatars1.githubusercontent.com/u/1766028?v=3&s=150" alt="I'ts me!">
       <h1>Alex Pessoa</h1>
       <div id="socialLinks"></div>
     </header>
@@ -27,28 +27,7 @@
             </md-card-title-text>
           </md-card-title>
           <md-card-content flex="100">
-            <md-list>
-              <md-list-item class="md-2-line">
-                <div class="md-list-item-text">
-                  <h3>Programmer at Facilit (2014 - Present)</h3>
-                  <p>Java, JSP, AngularJS</p>
-                </div>
-                <md-divider></md-divider>
-              </md-list-item>
-              <md-list-item class="md-2-line">
-                <div class="md-list-item-text">
-                  <h3>Programmer at Qualihouse (2013 - 2014)</h3>
-                  <p>Java, JSF, JPA</p>
-                </div>
-                <md-divider></md-divider>
-              </md-list-item>
-              <md-list-item class="md-2-line">
-                <div class="md-list-item-text">
-                  <h3>Intern at Instituto Federal de Pernambuco (2010 - 2012)</h3>
-                  <p>PHP, MySQL, jQuery</p>
-                </div>
-              </md-list-item>
-            </md-list>
+            <md-list id="workHistory"></md-list>
           </md-card-content>
         </md-card>
         <md-card flex="25" layout="column">
@@ -182,6 +161,8 @@
     <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
     <script src="./dist/SocialLinks.js"></script>
+    <script src="./dist/Job.js"></script>
+    <script src="./dist/WorkHistory.js"></script>
     <script src="./dist/index.js"></script>
   </body>
 </html>
