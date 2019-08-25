@@ -1,3 +1,6 @@
+import React from 'react';
+import { render } from 'react-dom';
 
-ReactDOM.render(<SocialLinks />, document.querySelector('#socialLinks'));
-ReactDOM.render(<WorkHistory />, document.querySelector('#workHistory'));
+import Resume from './Resume';
+
+render(<Resume />, document.querySelector('#resume'));
