@@ -1,0 +1,21 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{js,json,css,html}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+# Ignore paths
+[/dist/**,/node_modules/**]
+charset = none
+end_of_line = none
+insert_final_newline = none
+trim_trailing_whitespace = none
+indent_style = none
+indent_size = none
